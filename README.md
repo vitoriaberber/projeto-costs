@@ -1,12 +1,48 @@
-# React + Vite
+# 📊 Projeto: **Costs**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sistema de gerenciamento de projetos e orçamentos, desenvolvido com React e Vite. A aplicação permite criar, editar e excluir projetos, bem como adicionar serviços dentro de um orçamento controlado. Também conta com troca de tema (modo claro/escuro) usando o Context API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS Modules
+- Context API
+- json-server (para API fake em ambiente local)
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Funcionalidades
+
+- ✅ Adicionar novos projetos com nome, categoria e orçamento
+- ✅ Editar informações de um projeto já existente
+- ✅ Excluir projetos
+- ✅ Adicionar serviços aos projetos
+- ✅ Validação de orçamento: não permite adicionar serviços que ultrapassem o valor definido
+- ✅ Alternância entre tema claro e escuro com Context API
+- ✅ Reutilização eficiente de componentes com props dinâmicas
+
+---
+
+## 🖥️ Como rodar o projeto localmente
+
+1. **Clone o repositório:**
+   git clone https://github.com/vitoriaberber/projeto-costs.git
+
+   - Instale as dependências:
+   npm install
+   
+   - Rode o projeto:
+   npm run dev
+   - Inicie a API fake com json-server:
+   json-server --watch db.json --port 5000
+
+<br>
+🌐 Deploy
+O projeto está publicado na Vercel:
+🔗 Acesse aqui: https://projeto-costs-ashy.vercel.app/
+
+Nota: a API fake (json-server) funciona apenas localmente. Para produção, é necessário conectar com uma API real ou hospedada externamente.
+
+
