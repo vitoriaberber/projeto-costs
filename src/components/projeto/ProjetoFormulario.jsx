@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import React from "react";
 import styles from "./ProjetoFormulario.module.css";
-import Input from "../form/input";
+import Input from "../form/Input";
 import Select from "../form/Select";
 import SubmitButton from "../form/SubmitButton";
 import { useContext } from "react";

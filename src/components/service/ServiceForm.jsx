@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../projeto/ProjetoFormulario.module.css";
 import SubmitButton from "../form/SubmitButton";
-import Input from "../form/input";
+import Input from "../form/Input";
 import { useContext } from "react";
 import TemaContext from "../tema/TemaContext";
 
