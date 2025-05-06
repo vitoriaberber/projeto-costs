@@ -1,0 +1,39 @@
+.empresa_container {
+    width: 100%;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.empresa_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.empresa_container section{
+    padding: 1rem 0;
+}
+
+.container_sobre p{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.container_membro{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container_membro div{
+    border: 1px solid black;
+    padding: 1rem;
+    min-width: 250px;
+    margin: .5rem;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+}

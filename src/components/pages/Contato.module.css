@@ -1,0 +1,16 @@
+.contato_formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: .2rem;
+    width: 100vw;
+}
+
+.contato_formulario input{
+    width: 500px;
+}
+
+.contato_formulario button{
+    margin: .5rem;
+}
