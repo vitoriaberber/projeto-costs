@@ -8,9 +8,27 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
+      "cost": 900,
+      "services": [
+        {
+          "name": "novo servico",
+          "cost": "900",
+          "description": "nada",
+          "id": "55c7ec4c-c65a-41bc-b23f-ba0509a2be87"
+        }
+      ],
+      "orcamentoRestante": 7000
+    },
+    {
+      "id": "140b",
+      "name": "JavaScript",
+      "budget": "15000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
       "cost": 0,
-      "services": [],
-      "orcamentoRestante": 6700
+      "services": []
     }
   ],
   "categories": [

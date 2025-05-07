@@ -30,7 +30,7 @@ const Projetos = () => {
     setTimeout(() => {
       fetch("http://localhost:5000/project", {
         method: "GET",
-        header: {
+        headers: {
           "Content-Type": "application/json",
         },
       })
@@ -75,7 +75,7 @@ const Projetos = () => {
               id={project.id}
               name={project.name}
               budget={project.budget}
-              category={project.category.name}
+              category={project.category?.name}
               key={project.id}
               handleRemove={removeProject}
             />

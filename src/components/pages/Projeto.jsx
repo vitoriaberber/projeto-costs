@@ -163,7 +163,7 @@ const Projeto = () => {
   }
 
   return (
-    <>
+    <div className="container">
       {project.name ? (
         <div className={styles.project_details}>
           <Container customClass="column">
@@ -233,7 +233,7 @@ const Projeto = () => {
       ) : (
         <Louding />
       )}
-    </>
+    </div>
   );
 };
 

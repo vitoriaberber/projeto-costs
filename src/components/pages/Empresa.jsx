@@ -42,7 +42,7 @@ const Empresa = () => {
         <h2>Membros da equipe</h2>
         <div className={styles.container_membro}>
         {membros.map((membro) => (
-          <div>
+          <div key={membro.nome}>
             <p>Nome: {membro.nome}</p>
             <p>Cargo: {membro.cargo}</p>
           </div>

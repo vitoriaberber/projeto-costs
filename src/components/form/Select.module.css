@@ -1,17 +1,28 @@
-.form_control{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
 }
 
-.form_control label{
-    margin-bottom: .6em;
-    font-weight: bold;
+.form_control label {
+  margin-bottom: 0.6em;
+  font-weight: bold;
 }
 
-.form_control select{
-    padding: .7em;
-    border-radius: 0;
-    border: none;
+.form_control select {
+  padding: 0.7em;
+  border-radius: 0;
+  border: none;
 }
 
+@media screen and (width <= 1300px) {
+  .form_control {
+    width: 500px;
+  }
+}
+
+@media screen and (width <= 510px) {
+  .form_control {
+    width: 200px;
+  }
+}

@@ -14,3 +14,9 @@
 .contato_formulario button{
     margin: .5rem;
 }
+
+@media screen and (width <= 530px){
+    .contato_formulario input {
+        width: 300px;
+    }
+}

@@ -11,3 +11,10 @@
 .novoprojeto_container p{
     color: #7b7b7b;
 }
+
+@media screen and (width <= 950px) {
+    .novoprojeto_container{
+        width: 100vw;
+        margin: 0;
+    }
+}
