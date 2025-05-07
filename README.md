@@ -41,7 +41,7 @@ Um sistema de gerenciamento de projetos e orçamentos, desenvolvido com React e 
 <br>
 🌐 Deploy
 O projeto está publicado na Vercel:
-🔗 Acesse aqui: https://projeto-costs-ashy.vercel.app/
+🔗 Acesse aqui: https://projeto-costs-eta.vercel.app/
 
 Nota: a API fake (json-server) funciona apenas localmente. Para produção, é necessário conectar com uma API real ou hospedada externamente.
 
